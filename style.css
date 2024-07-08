@@ -1,0 +1,59 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+.centro-comercial {
+    margin-bottom: 40px;
+}
+
+.centro-comercial img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.centro-comercial p {
+    line-height: 1.5;
+}
+
+.centro-comercial ul {
+    list-style: none;
+    padding: 0;
+}
+
+.centro-comercial li {
+    margin-bottom: 10px;
+}
+
+.centro-comercial a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+}
+
+.boton {
+    display: block;
+    margin-top: 20px;
+}
+
+footer {
+    
