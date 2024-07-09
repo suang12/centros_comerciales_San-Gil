@@ -1,108 +1,102 @@
-/* Estilo general de la página */
+/* style.css */
+
+/* Estilos generales */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5;
-  }
-  
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  h1 {
-    font-size: 2.5em;
-    margin-bottom: 20px;
-  }
-  
-  main {
-    padding: 20px;
-  }
-  
-  /* Estilo de las secciones de cada centro comercial */
-  .centro-comercial {
-    margin-bottom: 40px;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-  }
-  
-  .centro-comercial img {
-    width: 50%; /* Ajustar el ancho al 50% del contenedor */
-    max-width: 350px; /* Ancho máximo de 350px */
-    height: auto; /* Ajustar el alto automáticamente */
-    object-fit: cover; /* Mantener la proporción de la imagen */
-    margin-bottom: 20px;
-    border: 1px solid #ccc; /* Opcional: agregar un borde a las imágenes */
-  }
-  
-  .centro-comercial p {
-    line-height: 1.5;
-  }
-  
-  .centro-comercial ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  .centro-comercial li {
-    margin-bottom: 10px;
-  }
-  
-  .centro-comercial a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .centro-comercial .boton {
-    display: block;
-    margin-top: 20px;
-    text-align: center;
-  }
-  
-  /* Estilo del pie de página */
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  footer p {
-    margin: 0;
-  }
-  
-  /* Estilo de la lista de información del centro comercial */
-  .centro-comercial ul li {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .centro-comercial ul li:first-child {
-    font-weight: bold;
-  }
-  
-  /* Estilo de la galería de imágenes (opcional) */
-  #galeria-san-gil-plaza {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  #galeria-san-gil-plaza img {
-    width: 250px;
-    height: 200px;
-    object-fit: cover;
-    margin: 10px;
-    border: 1px solid #ccc;
-  }
-  
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f9f9f9;
+}
+
+h1, h2 {
+  color: #00698f;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #00698f;
+}
+
+a:hover {
+  color: #00467f;
+}
+
+/* Estilos para la sección de centros comerciales */
+.centro-comercial {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.centro-comercial img {
+  width: 30%; /* reducir ancho a la mitad */
+  height: 300px; /* fijar alto en 100px */
+  object-fit: cover;
+  margin-bottom: 10px;
+  border-radius: 10px; /* agregar borde redondeado */
+}
+
+.centro-comercial ul {
+  padding: 20px;
+}
+
+.centro-comercial li {
+  margin-bottom: 15px;
+}
+
+.centro-comercial .boton {
+  background-color: #00698f;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.centro-comercial .boton:hover {
+  background-color: #00467f;
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  clear: both;
+}
+
+footer p {
+  margin-bottom: 0;
+}
