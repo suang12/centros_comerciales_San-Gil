@@ -57,6 +57,7 @@ a:hover {
   padding: 20px;
   margin-bottom: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* agregar borde redondeado */
 }
 
 .centro-comercial img {
@@ -65,14 +66,39 @@ a:hover {
   object-fit: cover;
   margin-bottom: 10px;
   border-radius: 10px; /* agregar borde redondeado */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* agregar sombra */
 }
 
 .centro-comercial ul {
   padding: 20px;
+  background-color: #f7f7f7; /* agregar fondo claro */
+  border-radius: 10px; /* agregar borde redondeado */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* agregar sombra */
 }
 
 .centro-comercial li {
   margin-bottom: 15px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc; /* agregar borde inferior */
+  border-radius: 10px; /* agregar borde redondeado */
+  background-color: #fff; /* agregar fondo blanco */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* agregar sombra */
+}
+
+.centro-comercial li:last-child {
+  border-bottom: none;
+}
+
+.centro-comercial li span {
+  font-weight: bold;
+  margin-right: 10px;
+  color: #00698f; /* agregar color azul */
+}
+
+.centro-comercial li p {
+  font-size: 16px;
+  color: #666; /* agregar color gris */
+  margin-bottom: 10px;
 }
 
 .centro-comercial .boton {
@@ -82,6 +108,7 @@ a:hover {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* agregar sombra */
 }
 
 .centro-comercial .boton:hover {
@@ -91,12 +118,15 @@ a:hover {
 /* Estilos para el footer */
 footer {
   background-color: #333;
-  color: #fff;
+  color: #f0eded;
   padding: 10px;
   text-align: center;
   clear: both;
+  border-top: 1px solid #444; /* agregar borde superior */
 }
 
 footer p {
   margin-bottom: 0;
+  font-size: 14px;
+  color: #ccc; /* agregar color gris claro */
 }
