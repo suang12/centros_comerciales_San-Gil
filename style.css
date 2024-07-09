@@ -79,9 +79,9 @@ a:hover {
 .centro-comercial li {
   margin-bottom: 15px;
   padding: 10px;
-  border-bottom: 1px solid #ccc; /* agregar borde inferior */
+  border-bottom: 1px solid #131212; /* agregar borde inferior */
   border-radius: 10px; /* agregar borde redondeado */
-  background-color: #fff; /* agregar fondo blanco */
+  background-color: #e6e0e0; /* agregar fondo blanco */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* agregar sombra */
 }
 
